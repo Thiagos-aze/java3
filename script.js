@@ -46,7 +46,7 @@ var total = 10;
         esper.textContent = 'O jogador ainda tem '+resultado+' tentativas'
 
         if(resultado < 1){
-            alert('Você infelizmente perdeu!!')
+            alert('Você infelizmente perdeu!! O número secreto era '+DESCOBRIR+'')
             location.reload();
         }
 
